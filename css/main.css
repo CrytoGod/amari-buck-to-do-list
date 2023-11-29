@@ -143,13 +143,13 @@ input [ type="checkbox"] {
 }
 
 #done input[ type="checkbox"]:checked + span {
-    color: rgb(247, 135, 84);
+    color: rgb(59, 223, 245);
     background-color: black;
 }
 
 input[type="checkbox"]:checked + span::after {
     content: '\2713';
-    margin-left: autp;
+    margin-left: 50px;
     width: 15px;
     height: 15px;
     line-height: 15px; 
