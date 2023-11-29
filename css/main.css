@@ -131,12 +131,6 @@ input [ type="checkbox"] {
     margin-right: 8px;
 }
 
-<<<<<<< Updated upstream
-input[ type="checkbox"]:checked + span::after {
-    content: '\2713';
-    width: 25px;
-    height: 25px;
-=======
 
 #todo input[ type="checkbox"]:checked + span {
     color: white;
@@ -159,7 +153,6 @@ input[type="checkbox"]:checked + span::after {
     width: 15px;
     height: 15px;
     line-height: 15px; 
->>>>>>> Stashed changes
     border-radius: 50%;
     background-color: green;
     border:  4px solid #20b320;
@@ -176,15 +169,3 @@ input[type="checkbox"]:checked + span::after {
 }
 
 
-footer {
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-}
-
-.sticky-footer {
-    position: sticky;
-    top: 100%;
-    height: 80px;
-    background-color: rgb(40, 37, 37);
-}
