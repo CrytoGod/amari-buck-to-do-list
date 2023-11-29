@@ -131,10 +131,35 @@ input [ type="checkbox"] {
     margin-right: 8px;
 }
 
+<<<<<<< Updated upstream
 input[ type="checkbox"]:checked + span::after {
     content: '\2713';
     width: 25px;
     height: 25px;
+=======
+
+#todo input[ type="checkbox"]:checked + span {
+    color: white;
+    background-color: black;
+}
+
+#inprogress input[ type="checkbox"]:checked + span {
+    color: rgb(247, 135, 84);
+    background-color: black;
+}
+
+#done input[ type="checkbox"]:checked + span {
+    color: rgb(59, 223, 245);
+    background-color: black;
+}
+
+input[type="checkbox"]:checked + span::after {
+    content: '\2713';
+    margin-left: 50px;
+    width: 15px;
+    height: 15px;
+    line-height: 15px; 
+>>>>>>> Stashed changes
     border-radius: 50%;
     background-color: green;
     border:  4px solid #20b320;
